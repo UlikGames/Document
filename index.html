@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Document</title>
+    <meta charset="utf-8" lang="en">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="bomba">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpM0qWmr_2slGTJ56zNk36Sh_E-kpykCdqLCOxjhIytqiIbg7m" id="demo">
+
+    <div id="bimo"></div>
+    <span>Image</span>
+    <input type="text" id="a1">
+    <button type="button" onclick="myFunk()">Change</button>
+    <br>
+    <span>Write something</span>
+    <input type="text" id="a2">
+    <button type="button" onclick="myFunc()">Change</button>
+    <br>
+    <span>Border</span>
+    <button type="button" onclick="myFunt()">Change</button>
+    <br>
+    <span>BOOM</span>
+    <button type="button" onclick="myFuns()">Change</button>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+    function myFunk(){
+        var a = document.getElementById('a1').value
+        document.getElementById('demo').src = a
+    }
+
+    function myFunc(){
+        var b = document.getElementById('a2').value
+        document.getElementById('bimo').innerHTML = b
+    }
+
+    function myFunt(){
+        document.getElementById('demo').border = 5
+    }
+
+    function myFuns(){
+        document.getElementById('bomba').style.display = 'none'
+    }
+
+
+
+
+
+</script>

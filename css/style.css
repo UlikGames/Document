@@ -1,0 +1,20 @@
+img, div{
+	margin: 10px;
+	width: 75%;
+	height: 50%;
+}
+
+div{
+	background: red;
+	height: 10%;
+}
+
+input{
+	margin-left: 10px;
+	margin-bottom: 5px;
+	width: 30%;
+}
+
+span{
+margin-left: 10px;
+}
